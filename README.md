@@ -6,18 +6,9 @@ Repositório do Desafio de Projeto referente ao módulo _Modelagem de Dados e Pr
 
 <br>
 
----
+## 🔍 Requisições das Consultas
 
-
-## 📲 Projeto Lógico E-commerce
-
-Nesta etapa do desafio, recriamos o projeto lógico de e-commerce apresentado, sendo necessário refinar o modelo para acrescentarmos os seguintes pontos:
-
-- Os compradores (Client) poderiam ser PF ou PJ, mas não os dois ao mesmo tempo.
-- Habilitar a possibilidade de ter mais de uma forma de pagamento (Boleto, Cartão de Débito, Cartão de Crédito - aqui na minha resolução)
-- Adicionar a definição de Entrega, demonstrando o status da entrega (por pedido) e armazenando um código de rastreio de cada entrega.
-
-🔍 Após a criação das tabelas, deveríamos realizar algumas consultas testes, sendo obrigatórias a abordagem de:
+Ambos projetos tinham estipulados como obrigatório nas consultas, as seguintes cláusulas:
 
 - Recuperações simples com SELECT Statement
 - Filtros com WHERE Statement
@@ -25,6 +16,18 @@ Nesta etapa do desafio, recriamos o projeto lógico de e-commerce apresentado, s
 - Defina ordenações dos dados com ORDER BY
 - Condições de filtros aos grupos – HAVING Statement
 - Crie junções entre tabelas para fornecer uma perspectiva mais complexa dos dados
+
+<br>
+---
+
+
+## 📲 Projeto Lógico E-commerce
+
+Nesta etapa do desafio, recriamos o **projeto lógico de e-commerce** apresentado, sendo necessário refinar o modelo para acrescentarmos os seguintes pontos:
+
+- Os compradores (Client) poderiam ser PF ou PJ, mas não os dois ao mesmo tempo.
+- Habilitar a possibilidade de ter mais de uma forma de pagamento (Boleto, Cartão de Débito, Cartão de Crédito - aqui na minha resolução)
+- Adicionar a definição de Entrega, demonstrando o status da entrega (por pedido) e armazenando um código de rastreio de cada entrega.
 
 As visualizações criadas foram:
 
@@ -36,4 +39,16 @@ As visualizações criadas foram:
 
 ---
 
-## Projeto Lógico do Zero
+## 🛠 Projeto Lógico do Zero
+
+Agora, nesta segunda parte, deveríamos por a mão-na-massa e criarmos sozinho (do zero) o projeto lógica e implementação para o cenário de uma **oficina**.
+
+As visualizações criadas foram:
+
+- Visualizar a tabela de Funcionários (Employee) e a de Unidades/Lojas da Oficina (StoreUnit)
+- Visualizar segmentação dos Funcionários por faixa etária pré-determinada
+- Visualizar quanto (em volume) cada serviço é requisitado por cada categoria de veículo
+- Serviços mais recorrentes em Carros de Passeio
+- Funcionários cujos depedentes tenham mais de 10 anos
+
+> 📌 Interessante, posteriormente, acrescentar entrada para descrição de cada atendimento e feedback do cliente. Também, acrescentar tabela de controle de estoque de produtos (óleo, peças)
