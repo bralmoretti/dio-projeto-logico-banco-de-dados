@@ -18,7 +18,6 @@ Ambos projetos tinham estipulados como obrigatório nas consultas, as seguintes 
 - Crie junções entre tabelas para fornecer uma perspectiva mais complexa dos dados
 
 <br>
----
 
 
 ## 📲 Projeto Lógico E-commerce
